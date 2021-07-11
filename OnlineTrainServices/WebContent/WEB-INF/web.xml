@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>HomeServlet</servlet-name>
+		<servlet-class>com.online.servlet.HomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>HomeServlet</servlet-name>
+	<url-pattern>/home</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<servlet-class>com.online.servlet.AdminLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>AdminLoginServlet</servlet-name>
+	<url-pattern>/admin</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserLoginServlet</servlet-name>
+		<servlet-class>com.online.servlet.UserLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>UserLoginServlet</servlet-name>
+	<url-pattern>/user</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewTrainServlet</servlet-name>
+		<servlet-class>com.online.servlet.ViewTrainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>ViewTrainServlet</servlet-name>
+	<url-pattern>/view1</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddTrainServlet</servlet-name>
+		<servlet-class>com.online.servlet.AddTrainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>AddTrainServlet</servlet-name>
+	<url-pattern>/add</url-pattern>	
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.online.servlet.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>LogoutServlet</servlet-name>
+	<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>ViewTrainServlet2</servlet-name>
+	<servlet-class>com.online.servlet.ViewTrainServlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewTrainServlet2</servlet-name>
+		<url-pattern>/check</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SelectedTrainServlet</servlet-name>
+		<servlet-class>com.online.servlet.SelectedTrainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelectedTrainServlet</servlet-name>
+		<url-pattern>/select</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserAddServlet</servlet-name>
+		<servlet-class>com.online.servlet.UserAddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserAddServlet</servlet-name>
+		<url-pattern>/useradd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditTrainServlet</servlet-name>
+		<servlet-class>com.online.servlet.EditTrainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditTrainServlet</servlet-name>
+		<url-pattern>/edit</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DeleteTrainServlet</servlet-name>
+		<servlet-class>com.online.servlet.DeleteTrainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteTrainServlet</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>Home.jsp</welcome-file>
+	</welcome-file-list>
+	
+	
+</web-app>
